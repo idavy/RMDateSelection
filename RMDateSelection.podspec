@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/idavy/RMDateSelection.git', :tag => s.version.to_s }
   s.ios.deployment_target = '7.0'
 
-  s.source_files = 'RMDateSelection/**/*'
-  
+  s.source_files = 'RMDateSelection/**/*.{h,m}'
+  s.resource = 'Pod/Assets/*.{xib}'  
   # s.resource_bundles = {
   #   'ProjectBase' => ['RMDateSelection/Assets/*.png']
   # }
