@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
 
   s.source_files = 'RMDateSelection/**/*.{h,m}'
-  s.resource = 'Pod/Assets/*.{xib}'  
+  s.resource = 'RMDateSelection/**/*.{xib}'  
   # s.resource_bundles = {
   #   'ProjectBase' => ['RMDateSelection/Assets/*.png']
   # }
