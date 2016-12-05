@@ -13,7 +13,7 @@
 {
 	RMDateSelectionViewController *dateSelectionVC = [RMDateSelectionViewController dateSelectionController];
 	dateSelectionVC.delegate = delegate;
-	[dateSelectionVC show];
+	[dateSelectionVC showFromViewController:delegate];
 	dateSelectionVC.datePicker.datePickerMode = UIDatePickerModeDate;
 	dateSelectionVC.datePicker.minuteInterval = 5;
 	dateSelectionVC.datePicker.tag = tag;
